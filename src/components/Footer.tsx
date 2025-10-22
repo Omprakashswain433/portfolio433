@@ -28,7 +28,7 @@ const Footer = () => {
         <div className="py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* About Section */}
           <div className="lg:col-span-1">
-            <h3 className="text-2xl font-bold text-primary mb-4">Om Developer</h3>
+            <h3 className="text-2xl font-bold text-primary mb-4">Om Prakash</h3>
             <p className="text-muted-foreground mb-6 leading-relaxed">
               Building reliable, scalable, and automated cloud solutions with a focus on AI/ML deployment, DevOps best practices, and seamless user experiences.
             </p>
@@ -90,7 +90,7 @@ const Footer = () => {
                 +91 9348988935
               </a>
               <p>Odisha, India</p>
-              <p className="text-sm">© {currentYear} Om Developer. All rights reserved.</p>
+              <p className="text-sm">© {currentYear} Om Prakash. All rights reserved.</p>
             </div>
           </div>
 
@@ -100,7 +100,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="py-6 border-t border-border flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center gap-2 text-muted-foreground mb-4 md:mb-0">
-            <span>© {currentYear} Om Developer. Made with</span>
+            <span>© {currentYear} Om Prakash. Made with</span>
             <Heart className="h-4 w-4 text-red-500 fill-current" />
             <span>using React & TypeScript</span>
           </div>

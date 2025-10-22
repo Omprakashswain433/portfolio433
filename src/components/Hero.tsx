@@ -42,7 +42,7 @@ const Hero = () => {
               <h2 className="text-lg text-muted-foreground mb-2">Hi, I'm</h2>
               <h1 className="text-5xl md:text-6xl font-bold mb-4">
                 <span className="text-foreground">Om </span>
-                <span className="text-highlight">Developer</span>
+                <span className="text-highlight">Prakash</span>
               </h1>
               <div className="h-1 w-20 bg-primary rounded-full mb-6"></div>
             </div>
