@@ -137,8 +137,15 @@ const Projects = () => {
 
         {/* View All Projects CTA */}
         <div className="text-center">
-          <Button variant="default" size="lg">
-            View All Projects
+          <Button asChild variant="hero" size="lg">
+            <a
+              href="https://github.com/Omprakashswain433"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center"
+            >
+              View All Projects
+            </a>
           </Button>
           <p className="text-sm text-muted-foreground mt-4">
             Check out my GitHub for more Cloud & AI/ML projects

@@ -60,10 +60,17 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
-              <Button variant="hero" size="lg" className="group">
-                <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
-                Download Resume
+              <Button asChild variant="hero" size="lg" className="group">
+                <a
+                  href="/resume.pdf"
+                  download="OmPrakashSwain_Resume.pdf"
+                  className="flex items-center"
+                >
+                  <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
+                  Download Resume
+                </a>
               </Button>
+
               <Button
                 variant="outline"
                 size="lg"

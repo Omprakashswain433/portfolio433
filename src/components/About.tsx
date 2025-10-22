@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Cloud, Server, ChartPie, Users } from "lucide-react";
+import { Cloud, Server, ChartPie, Users, Download } from "lucide-react";
 
 const About = () => {
   const skills = [
@@ -139,10 +139,20 @@ const About = () => {
               <p className="text-muted-foreground mb-6 leading-relaxed">
                 I focus on clean, maintainable code and staying updated with the latest industry trends in cloud computing, DevOps, and AI/ML. My goal is to bridge the gap between development and operations, creating seamless, reliable systems.
               </p>
-              <Button variant="outline" size="lg">
-                Download CV
+
+              {/* Corrected Download CV Button */}
+              <Button asChild variant="outline" size="lg">
+                <a
+                  href="/resume.pdf"
+                  download="OmPrakashSwain_Resume.pdf"
+                  className="flex items-center"
+                >
+                  <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
+                  Download CV
+                </a>
               </Button>
             </div>
+
             <div className="flex justify-center">
               <div className="w-full max-w-md h-64 bg-gradient-to-br from-primary/20 to-highlight/20 rounded-2xl flex items-center justify-center">
                 <div className="text-center">
