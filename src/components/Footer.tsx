@@ -51,7 +51,7 @@ const Footer = () => {
                   <Linkedin className="h-5 w-5" />
                 </Button>
               </a>
-              <a href="mailto:0m9856668@gmail.com">
+              <a href="mailto:om.operify@gmail.com">
                 <Button variant="glass" size="icon" className="hover:scale-110 transition-transform">
                   <Mail className="h-5 w-5" />
                 </Button>
@@ -84,7 +84,7 @@ const Footer = () => {
                 href="mailto:0m9856668@gmail.com"
                 className="block hover:text-primary transition-colors duration-200"
               >
-                0m9856668@gmail.com
+                om.operify@gmail.com
               </a>
               <a href="tel:+919348988935" className="block hover:text-primary transition-colors duration-200">
                 +91 9348988935

@@ -127,7 +127,7 @@ const Hero = () => {
                   <Linkedin className="h-5 w-5" />
                 </Button>
               </a>
-              <a href="mailto:0m9856668@gmail.com">
+              <a href="mailto:om.opertify@gmail.com">
                 <Button
                   variant="glass"
                   size="icon"

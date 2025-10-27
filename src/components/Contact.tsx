@@ -49,7 +49,7 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    { icon: <Mail className="h-6 w-6" />, title: "Email", details: "0m9856668@gmail.com", description: "Send me an email anytime!" },
+    { icon: <Mail className="h-6 w-6" />, title: "Email", details: "om.operify@gmail.com", description: "Send me an email anytime!" },
     { icon: <Phone className="h-6 w-6" />, title: "Phone", details: "+91 9348988935", description: "Available Mon-Fri, 9AM-6PM IST" },
     { icon: <MapPin className="h-6 w-6" />, title: "Location", details: "Kabisurya Nagar, Odisha", description: "Open to remote work" },
     { icon: <Clock className="h-6 w-6" />, title: "Response Time", details: "Within 24 hours", description: "Usually much faster!" }
@@ -59,7 +59,7 @@ const Contact = () => {
     { icon: <Github className="h-5 w-5" />, label: "GitHub", url: "https://github.com/Omprakashswain433" },
     { icon: <Linkedin className="h-5 w-5" />, label: "LinkedIn", url: "https://www.linkedin.com/in/om-prakash-swain-6442b2302/" },
     { icon: <Twitter className="h-5 w-5" />, label: "Twitter", url: "https://twitter.com/" },
-    { icon: <Mail className="h-5 w-5" />, label: "Email", url: "mailto:0m9856668@gmail.com" }
+    { icon: <Mail className="h-5 w-5" />, label: "Email", url: "mailto:om.operify@gmail.com" }
   ];
 
   return (
