@@ -81,7 +81,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold text-foreground mb-4">Get In Touch</h4>
             <div className="space-y-3 text-muted-foreground">
               <a
-                href="mailto:0m9856668@gmail.com"
+                href="mailto:om.operify@gmail.com"
                 className="block hover:text-primary transition-colors duration-200"
               >
                 om.operify@gmail.com
